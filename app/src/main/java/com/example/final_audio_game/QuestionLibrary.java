@@ -4,8 +4,6 @@ import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import java.util.ArrayList;
-
 public class QuestionLibrary extends AppCompatActivity {
     // List of songs
     private MediaPlayer[] Songs = new MediaPlayer[18];
@@ -41,7 +39,7 @@ public class QuestionLibrary extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
 
         // Initialize all the songs
         MediaPlayer RollingInTheDeep = MediaPlayer.create(this, R.raw.adele_rolling_in_the_deep);
